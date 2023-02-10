@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: azure;
+}
+
+.bg {
+    background-color: rgba(46, 46, 46);
+    padding: 3rem 5rem;
+    border-radius: 2rem;
+
+}
+
+.netflix-logo {
+    height: 15rem;
+    width: 3rem;
+    border-left: 3rem solid #d20812;
+    border-right: 3rem solid #d20812;
+}
+
+.netflix-logo:before {
+    display: block;
+    content: '';
+    height: 100%;
+    width: 100%;
+    background: #fd0916;
+    transform: skewX(21.5deg);
+    box-shadow: 0 0 30px black;
+}
+
